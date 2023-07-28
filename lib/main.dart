@@ -28,13 +28,13 @@ class _FirstPageState extends State<FirstPage> {
   int rightDiceNumber = 1;
 
   void changeLeftDiceNumber() {
-    Random random = new Random();
+    Random random = Random();
     int newRandom = random.nextInt(6) + 1;
     leftDiceNumber = newRandom;
   }
 
   void changeRightDiceNumber() {
-    Random random = new Random();
+    Random random = Random();
     int newRandom = random.nextInt(6) + 1;
     rightDiceNumber = newRandom;
   }
